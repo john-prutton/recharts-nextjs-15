@@ -3,7 +3,10 @@
 ## The issue
 
 Here it is working in nextjs 14
-![Working in Next@14](public/Screenshot%202024-06-20%20105349.png)
+![Working in Next@14](public/next-14-working.png)
+
+Here it is broken in nextjs 15
+![Working in Next@14](public/next-15-broken.png)
 
 ## Getting Started
 
