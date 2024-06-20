@@ -1,6 +1,6 @@
 "use client"
 
-import {AreaChart, Area, ResponsiveContainer} from "recharts"
+import { AreaChart, Area, ResponsiveContainer } from "recharts"
 
 const data = [
   {
@@ -51,9 +51,9 @@ export function AreaChartComponent() {
   return (
     <div className="size-[50vmax] bg-red-500/10">
       <ResponsiveContainer width="100%" height="100%">
-    <AreaChart data={data}>
-        <Area dataKey={"uv"} />
-      </AreaChart>
+        <AreaChart data={data}>
+          <Area dataKey={"uv"} />
+        </AreaChart>
       </ResponsiveContainer>
     </div>
   )
